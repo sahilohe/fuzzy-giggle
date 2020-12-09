@@ -10,17 +10,17 @@ print(guess)
 
 if guess == ['Paper']:
 
-    img = Image.open('img/paper.png')
+    img = Image.open('paper.png')
     img.show()
 
 elif guess == ['Rock']:
 
-    img = Image.open('img/rock.png')
+    img = Image.open('rock.png')
     img.show()
 
 elif guess == ['Scissors']:
 
-    img = Image.open('img/scissors.png')
+    img = Image.open('scissors.png')
     img.show()
 
 else:
